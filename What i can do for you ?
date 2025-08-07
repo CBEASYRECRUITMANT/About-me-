@@ -1,0 +1,48 @@
+# 🧑‍💻 Software Engineers
+
+## 🔍 What Hiring Managers Look For
+- Proficiency in a major language (JavaScript, Python, Java, etc.)
+- Understanding of system design & architecture
+- Clean, testable, maintainable code
+- Problem-solving and communication skills
+
+## 💼 Typical Interview Rounds
+1. Resume screen
+2. Coding challenge or live coding
+3. System design (for senior roles)
+4. Cultural fit / team interviews
+
+## 🚀 Tips
+- Practice on LeetCode, HackerRank, or CodeSignal
+- Contribute to open-source or build a portfolio project
+- Be ready to explain past projects clearly
+🔹 roles/devops-engineers.md
+markdown
+Copy
+Edit
+# ⚙️ DevOps Engineers
+
+## 🧠 Key Skills
+- CI/CD (Jenkins, GitHub Actions, GitLab CI)
+- Containers: Docker, Kubernetes
+- Infrastructure as Code (Terraform, Ansible)
+- Cloud Platforms: AWS, Azure, or GCP
+
+## 🔍 Hiring Focus
+- Automation and scaling
+- Reliability and monitoring
+- Cross-team collaboration
+
+## 💡 Pro Tip
+Know how to troubleshoot and explain trade-offs in tools or architectures you've used.
+🔹 roles/data-engineers.md
+markdown
+Copy
+Edit
+# 📊 Data Engineers
+
+## 🧰 Common Tech Stack
+- SQL & NoSQL databases
+- Python, Scala, or Java
+- Airflow, dbt, Spark, Kafka
+- AWS Glue, Redshift, BigQuery, Snowflake
