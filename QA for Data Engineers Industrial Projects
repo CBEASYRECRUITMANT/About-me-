@@ -1,0 +1,136 @@
+Git / Visual Studio Code / Airflow / JSON / Alerts
+To make the first commit from a branch, how do you push only the first one if there are multiple commits on the branch?
+→ Do you assign it an ID? → No, just a small change done in Visual Studio Code.
+
+How is the process with Airflow?
+
+How do you design a JSON schema?
+
+How are alerts sent? → Slack
+
+💾 SQL Server Questions:
+What is a JOIN? – OK
+
+What types of JOINs do you know? – 3 types
+
+What’s the difference between LEFT and INNER JOIN? – OK
+
+How many rows result from a LEFT JOIN?
+→ Candidate’s answer: "number of rows from the left table" (incorrect)
+→ Correct answer: Initial number of rows from the transactions table multiplied by the number of matching cases for the join condition.
+
+How does the transaction table operate row by row?
+→ Does it try to match everywhere?
+
+Where should the primary join key ideally be?
+
+What’s the difference between HAVING and WHERE?
+→ Both are filtering conditions;
+→ WHERE filters before grouping,
+→ HAVING filters after grouping (on aggregates).
+
+What does QUALIFY do in GCP?
+→ Don’t know the definition,
+→ Used it to avoid counting how many duplicates there are.
+
+If someone tells you two columns together form a unique key in a table (e.g., “Ion Popescu” appears twice), how would you check this?
+→ Using DISTINCT.
+
+What would you need to conclude they are not unique?
+→ Visual observation.
+
+So where exactly are the duplicates?
+→ If columns A and B don’t form a unique key and generate more than one row per pair, how would you demonstrate it?
+→ With EXISTS and NOT EXISTS.
+→ What would the query be in this case? → Use CNP (unique identifier like SSN).
+
+And if we only look at names like “Popescu”?
+→ Use HAVING COUNT(*) <> 1 — that’s the correct approach.
+
+What’s the difference between a table and a view? → Answered correctly.
+
+When would you use a table and when a view?
+→ Views for smaller or specific filtered datasets.
+
+Disadvantage of using a table for small data sets?
+→ A query behind a view might include many columns and be slow to load.
+
+What might make you use a view even for a large dataset?
+→ [Not answered, context needed.]
+
+👩‍💼 Behavioral / Personal Questions
+
+Do you like learning new things?
+→ How fast do you think you can learn?
+
+What direction would you like to go in the future?
+→ Developer – as a software engineer or in data?
+→ Software engineer
+
+
+Do you have experience working with multinational teams?
+→ Yes, I work daily with a team from the Netherlands in English.
+
+Why are you looking to change jobs? What are you looking for?
+→ A new challenge – currently, my tasks are repetitive.
+
+What if you find the same thing here (repetitive work)?
+→ Depends on how long it lasts.
+
+What do you mean by "repetitive tasks"?
+→ The integration I'm working on now has been ongoing for several months — change after change.
+
+In Renault, many projects are in maintenance mode; changes are rare because the business relies on them. It’s inevitable that someone must handle them.
+→ You won’t always get new challenges; there’s rarely a setup with only new development and no maintenance or repetitive tasks.
+
+What do you consider to be a "challenge"?
+→ A new project, new teams.
+
+Have you studied or interacted with AI? Were you informed about upcoming tools?
+→ No, nothing was communicated to us.
+→ I only knew they wanted to create a bot that employees could interact with.
+
+
+Do you use Jira? → Yes, and Confluence.
+
+How often are your sprints?
+→ We use a scrumban model. Tasks are placed on the board and each colleague picks tasks as they come.
+→ We have weekly or bi-weekly status meetings to track progress.
+
+When something breaks, how do you handle it?
+→ We have alerts triggered by the scheduler. If data consumers don’t see updated datasets, it gets escalated to the data source team, and investigation starts from there.
+→ Our team is not the data owner; we’re responsible for data modeling.
+
+Are project teams included in alert lists?
+→ Yes, usually they are, and they respond first.
+
+Do you have access to the datasets?
+→ Yes, we have visibility and access but are not accountable for incidents.
+→ The project team usually responds first, but we help if we can.
+
+🏭 Industrial Data Platform (IDP) Context
+The ambition of the Industrial Data Platform program is to enable Manufacturing, Supply Chain, and Production Engineering teams to build Analytics and AI applications by collecting industrial data from multiple sources using a mix of cloud and on-premise technologies.
+
+The IDM team is responsible for:
+
+Maintaining and developing software products
+
+Extracting industrial data from various sources
+
+Aggregating and transforming data
+
+Enabling users from the above-mentioned teams to exploit data through:
+
+🔹 SQL access
+
+🔹 APIs
+
+🔹 Message queues
+
+🔹 Dashboards
+
+🔹 Web apps
+
+🔹 Mobile apps
+
+🔹 etc.
