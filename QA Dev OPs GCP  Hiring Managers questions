@@ -1,0 +1,46 @@
+How do you find GCP compared to Azure?
+
+What advantages do you think GCP has?
+
+What’s your opinion on dropping resource groups (a concept specific to Azure)?
+
+What CI/CD tools have you worked with so far?
+
+Do you have experience with GitLab CI/CD?
+
+Between Jenkins and GitLab CI, which platform do you find more intuitive/powerful?
+
+Do you find Azure DevOps easy to use?
+
+Have you ever configured Jenkins from scratch?
+
+From your point of view, what does a complete pipeline look like for a Node.js frontend application?
+
+In GitLab CI, is a checkout step required?
+
+Why do you build the application?
+
+Do you use SonarQube for static code analysis?
+
+Do you know the difference between an operator and a controller in Kubernetes?
+
+Do you know what an External Secret is in Kubernetes?
+
+Which Big Data services have you used in GCP?
+
+Have you worked with Dataflow or Dataproc?
+
+Have you successfully deployed a job on Dataflow or Dataproc?
+
+What did you use Dataproc for?
+
+For example: Hadoop, Spark jobs?
+
+What is the name of the Airflow service in GCP?
+
+(Answer: Composer)
+
+Do you find Composer more complex compared to classic Airflow?
+
+Have you worked with Cloud SQL?
+
